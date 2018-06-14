@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My first blog post"
-date: 2014-04-30
+date: 2018-06-14
 ---
 
 This is my first blogpost. Apparently jekyll mandates that post file's names follow the following format:
