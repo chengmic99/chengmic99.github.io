@@ -1,10 +1,155 @@
----
-layout: default
-title: Flagpole Land
----
-<div class="blurb">
-	<h1>Hi there, I'm Michelle Cheng!</h1>
-	<p>I'm from a place called flagpoleland.</p>
-	<p>Subscribe to my blog by using this link in ur feed aggregator of choice:
-		http://chengmic99.github.io/blog/atom.xml </p>
-</div><!-- /.blurb -->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- Bootstrap CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+		integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+		<!-- font -->
+		<!-- <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+
+		<!-- my CSS -->
+		<link rel="stylesheet" href="/css/main.css">
+
+		<!-- my js file -->
+		<script src="/main.js"></script>
+	</head>
+
+	<body>
+		<!-- <div id="nav-icon" class="fixed-top" style="width:25px;height:25px">
+			
+		</div> -->
+
+
+		<div class="bgimg-1">
+			<div class="section-title">
+				<h1><span class="border">Welcome to Flagpole Land</span></h1>
+		  	</div>
+		</div>
+
+		<div class="intro">
+			<!-- <div class="me">
+				<center>
+					<img src="../assets/me.jpg" alt="moi">
+					<img src="../assets/me2.jpg" alt="moi" class="pic-hover">
+				</center>
+			</div> -->
+			
+		  	<h1 style="text-align:center;">Hi, my name is Michelle Cheng</h1>
+			<h5 style="text-align:center;">
+			  	I'm a second year computer science major at the University of Texas at Austin.
+			  	As a computer science major, it's pretty much given that I should have a personal 
+			  	website to show off my projects and tell you guys a little more about myself. So here it is,
+			  	my website! I know it looks kind of like a website for some aesthetic clothing
+			  	catalog or whatever.. but I guess my photography is just that good ;) these are just sky
+			  	pics during every season, taken from my own backyard C: Anywho, please scroll on to get 
+			  	to know me a little more!
+			</h5>
+			<div class="row">
+				<div class="col-xs link-icons">
+					<img src="../assets/github.png" style="width:100%;height:100%;" >
+				</div>
+				<div class="col-xs link-icons">
+					<img src="../assets/linkedin.svg" style="width:100%;height:100%;" >
+				</div>
+				<div class="col-xs link-icons">
+					<img src="../assets/mail.png" style="width:100%;height:100%;" >
+				</div>
+			</div>
+		</div>
+
+		<div class="bgimg-2">
+			<div class="section-title">
+			    <span class="border">
+			    	PROJECTS
+			    </span>
+			</div>
+		</div>
+		<script>
+			$(document).ready(function() {
+				$("#collapsible1").click( function(){
+					$("#project-content1").slideToggle("slow");
+				});
+				$("#collapsible2").click( function(){
+					$("#project-content2").slideToggle("slow");
+				});
+				$("#collapsible3").click( function(){
+					$("#project-content3").slideToggle("slow");
+				});
+			});
+		</script>
+	  	<div class="projects">
+    		<div class="project-names" id="collapsible1">
+    			<h3>LanguageTranscender</h3>
+    		</div>
+    		<div class="project-content" id="project-content1">
+    			<div class=row>
+	    			<p class="col-xs half">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	    			<img class="col-xs half" src="../assets/bts.jpg" style="width:50%;height:50%" >
+    			</div>
+			</div>
+
+			<div class="project-names" id="collapsible2">
+	    		<h3>Speaker Detection Through Audiovisual Cues</h3>
+	    	</div>
+	    	<div class="project-content" id="project-content2">
+	    		<div class=row>
+	    			<img class="col-xs half" src="../assets/bts.jpg" style="width:50%;height:50%" >
+				  	<p class="col-xs half">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+
+			<div class="project-names" id="collapsible3">
+				<h3>The Happ</h3>
+			</div>
+			<div class="project-content" id="project-content3">
+			  <div class=row>
+				  	<p class="col-xs half">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				  	<img class="col-xs half" src="../assets/bts.jpg" style="width:50%;height:50%" >
+				</div>
+			</div>
+	  	</div>
+
+		<div class="bgimg-3">
+		  	<div class="section-title">
+		    	<span class="border">
+		    		OTHER INTERESTS
+		    	</span>
+		  	</div>
+		</div>
+
+		<div style="position:relative;">
+		  	<div class="interests">
+		    	<h5>
+		    		in my free time, and sometimes when it's not free time 😅 i relax from life
+		    		by stanning BTS, listening to music, and teaching myself piano. Recently, I've
+		    		taken an interest in making vlogs. Hopefully, as time goes on, I will travel
+		    		more and go to more events around my university so I can make more vlogs. I also
+		    		want to learn digital music composition and so I'm taking some classes this year 
+		    		at UT. I also have taken an interest in basketball and volleyball so I'm
+		    		learning that in my free time too. Take a look:
+		    	</h5>
+			</div>
+		</div>
+
+		<div class="bgimg-4">
+		  	<div class="section-title">
+		    	<h1><span class="border">Thanks for checking me out!</span></h1>
+		  	</div>
+		  	<div class=row>
+		  		<div
+		  	</div>
+		</div>
+
+	</body>
+</html>
