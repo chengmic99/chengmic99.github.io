@@ -15,23 +15,13 @@
     src: url('../lovelo/line-light.otf');
 }
 
-.col-xs {
-  text-align: center;
-  padding:5%;
-}
-.half {
-  width:50%;
-}
-.link-icons {
-  width: 33%;
-  padding: 10%;
-}
 /* ////////////////////////// html types ////////////////////////// */
 body, html{
   height: 100%;
   margin: 0;
   font-family: 'Gamja Flower';
   color: white;
+  text-align: center;
 }
 
 h1{
@@ -44,24 +34,50 @@ h1, h2, h3, h4, h5, p, a{
 a:hover{
     color:#ffc1f9;
 }
+
 /* ////////////////////////// reusable classes ////////////////////////// */
+.col-xs {
+  padding:5%;
+}
+.half {
+  width:50%;
+}
+
+img.clickable:hover {
+  animation: shake 0.5s; 
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 .section-title { /* section titles */
   position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
-  text-align: center;
   color: #000;
   font-size: 25px;
   letter-spacing: 10px;
-  font-family: 'lovelo-light'; 
+  font-family: 'lovelo-bold'; 
 }
 
-.section-title span.border {
-  background-image: url("../assets/forest.jpeg");
+.section-title-text {
+  /*background-image: url("../assets/forest.jpeg");*/
   color: #fff;
   padding: 18px;
 }
+
 /* ////////////////////////// my website sections ////////////////////////// */
 
 /*#nav-icon {
@@ -78,7 +94,7 @@ a:hover{
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.8;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,84 +107,55 @@ a:hover{
 }
 .intro { /* text to introduce meself */
     color: #777;
-    background-color:#d5d8e2;
-    text-align:center;
-    /*padding-left: 100px;
-    padding-right: 100px;*/
-    padding:5% 30% 5% 30%;
-    /*text-align: justify;*/
+    background-color:#e6d8c7;
+    padding:5% 30% 3% 30%;
 }
-.me {
-  position: relative;
-  display: inline-block;
-}
-.me.pic-hover {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.me:hover.pic-hover {
-  display: inline;
+
+.link-icons {
+  width: 33%;
+  padding: 10%;
 }
 /*////////////////////////////////////////////////////*/
 
 .bgimg-2 { /* projects span */
   background-image: url("../assets/jump2.jpg");
-  min-height: 400px;
+  min-height: 500px;
 }
 .projects { /* list of my  projects */
-    background-color:#969d85;
-    text-align:center;
+    background-color:#c3cca9;
     padding:50px 80px;
-    text-align: justify;
 }
 .project-names {
-  font-family: 'lovelo-light';
+  /*font-family: 'lovelo-light';*/
   width:100%;
-  text-align: center;
   padding: 3%;
-  /*padding-bottom: 5%;*/
 }
 .project-names h3:hover {
-  color:#ffc1f9;
+  color:#d28588;
 }
 .project-content {
-  /*padding: 50px;*/
-  padding:0% 10% 10% 0%;
   max-height: 100%;
   display:none;
 }
-/*#bts {
-    background-image: url("../assets/bts.jpg");
-    width:300px;
-    height:200px;
-    margin-left:20%;
-    margin-right:10%;
-}
-#bts:hover {
-    background-image: url("../assets/bts2.jpg");
-;}*/
 
 /*////////////////////////////////////////////////////*/
 
 .bgimg-3 { /* other interests span */
   background-image: url("../assets/jump3.jpg");
-  min-height: 400px;
+  min-height: 500px;
 }
 .interests { /* list of my interests */
     color:#ddd;
-    background-color:#b9a5a0;
-    text-align:center;
-    padding:50px 80px;
-    text-align: justify;
-    padding:7% 30% 10% 30%;
+    background-color:#dbcacd;
+    /*padding:20% 10% 20% 10%;*/
+}
+.interest-icons {
+  width: 20%;
 }
 
 /*////////////////////////////////////////////////////*/
 
-.bgimg-4 { /* connect w me */
+.bgimg-4 { /* thanks for checking me out */
   background-image: url("../assets/jump4.jpg");
   min-height: 100%;
 }
