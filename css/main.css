@@ -58,7 +58,7 @@ a:hover{
 }
 
 .section-title span.border {
-  background-image: url("../assets/forest.JPEG");
+  background-image: url("../assets/forest.jpeg");
   color: #fff;
   padding: 18px;
 }
@@ -86,7 +86,7 @@ a:hover{
 
 }
 .bgimg-1 { /* welcome to flagpole land */
-  background-image: url("../assets/jump1.JPG");
+  background-image: url("../assets/jump1.jpg");
   min-height: 100%;
 }
 .intro { /* text to introduce meself */
@@ -115,7 +115,7 @@ a:hover{
 /*////////////////////////////////////////////////////*/
 
 .bgimg-2 { /* projects span */
-  background-image: url("../assets/jump2.JPG");
+  background-image: url("../assets/jump2.jpg");
   min-height: 400px;
 }
 .projects { /* list of my  projects */
@@ -154,7 +154,7 @@ a:hover{
 /*////////////////////////////////////////////////////*/
 
 .bgimg-3 { /* other interests span */
-  background-image: url("../assets/jump3.JPG");
+  background-image: url("../assets/jump3.jpg");
   min-height: 400px;
 }
 .interests { /* list of my interests */
@@ -169,6 +169,6 @@ a:hover{
 /*////////////////////////////////////////////////////*/
 
 .bgimg-4 { /* connect w me */
-  background-image: url("../assets/jump4.JPG");
+  background-image: url("../assets/jump4.jpg");
   min-height: 100%;
 }
