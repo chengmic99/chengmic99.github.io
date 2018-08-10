@@ -62,7 +62,7 @@
 			<h5> 👾 I'm studying computer science and pursuing a business minor</h5>
 			<h5> 🎶 I'm passionate about music (particularly BTS) and arts & tech</h5>
 			<h5> 💌 Email me @ 
-				<a href="mailto:chengmic99@gmail.com" target="blank"/>chengmic99@gmail.com</a></h5>
+				<a href="mailto:chengmic99@gmail.com" target="blank">chengmic99@gmail.com</a>
 			</h5>
 			<!-- <div class="row">
 				<div class="col-xs link-icons">
@@ -87,6 +87,16 @@
 		</div>
 		<script>
 			$(document).ready(function() {
+				var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
 				$("#collapsible1").click( function(){
 					$("#project-content1").slideToggle("slow");
 				});
@@ -134,33 +144,27 @@
 		  	<div class="section-title section-title-text">OTHER INTERESTS</div>
 		</div>
 
-		<div style="position:relative;">
+		<div >
 		  	<div class="interests">
-		    	<!-- <h5>
-		    		in my free time, and sometimes when it's not free time 😅 i relax from life
-		    		by stanning BTS, listening to music, and teaching myself piano. Recently, I've
-		    		taken an interest in making vlogs. Hopefully, as time goes on, I will travel
-		    		more and go to more events around my university so I can make more vlogs. I also
-		    		want to learn digital music composition and so I'm taking some classes this year 
-		    		at UT. Take a look:
-		    	</h5> -->
-		    	<div class="row">
-		    		<div class="col-xs interest-icons">
-		    			<img class="clickable" src="/assets/camera.png" style="width:100%;height:100%;" >
-		    		</div>
-		    		<div class="col-xs interest-icons">
-		    			<img class="clickable" src="/assets/youtube.png" style="width:100%;height:100%;" >
-		    		</div>
-		    		<div class="col-xs interest-icons">
-		    			<img class="clickable" src="/assets/bts-logo.png" style="width:100%;height:100%;" >
-		    		</div>
-		    		<div class="col-xs interest-icons">
-		    			<img class="clickable" src="/assets/tv.png" style="width:100%;height:100%;" >
-		    		</div>
-		    		<div class="col-xs interest-icons">
-		    			<img class="clickable" src="/assets/synthesizer.svg" style="width:100%;height:100%;" >
-		    		</div>
+		  		<center>
+		    	<div class="row" style="width:80%">
+			    		<div class="col-xs interest-icons">
+			    			<img class="clickable" src="/assets/camera.png" style="width:100%;height:100%;" >
+			    		</div>
+			    		<div class="col-xs interest-icons">
+			    			<img class="clickable" src="/assets/youtube.png" style="width:100%;height:100%;" >
+			    		</div>
+			    		<div class="col-xs interest-icons">
+			    			<img class="clickable" src="/assets/bts-logo.png" style="width:100%;height:100%;" >
+			    		</div>
+			    		<div class="col-xs interest-icons">
+			    			<img class="clickable" src="/assets/tv.png" style="width:100%;height:100%;" >
+			    		</div>
+			    		<div class="col-xs interest-icons">
+			    			<img class="clickable" src="/assets/synthesizer.svg" style="width:100%;height:100%;" >
+			    		</div>
 		    	</div>
+		    	</center>
 			</div>
 		</div>
 
