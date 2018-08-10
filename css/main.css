@@ -4,6 +4,9 @@
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+    .section-title-text {
+      font-size: 10px;
+    }
 }
 
 @font-face {
@@ -18,6 +21,7 @@
 /* ////////////////////////// html types ////////////////////////// */
 body, html{
   height: 100%;
+  /*width:100%;*/
   margin: 0;
   font-family: 'Gamja Flower';
   color: white;
@@ -32,7 +36,7 @@ h1, h2, h3, h4, h5, p, a{
   color: #111;
 }
 a:hover{
-    color:#ffc1f9;
+    color:#851513;
 }
 
 /* ////////////////////////// reusable classes ////////////////////////// */
@@ -64,18 +68,16 @@ img.clickable:hover {
 .section-title { /* section titles */
   position: absolute;
   left: 0;
-  top: 50%;
-  width: 100%;
-  color: #000;
-  font-size: 25px;
-  letter-spacing: 10px;
-  font-family: 'lovelo-bold'; 
+  top: 45%;
+  width: 100%; 
 }
 
 .section-title-text {
-  /*background-image: url("../assets/forest.jpeg");*/
+  letter-spacing: 10px;
+  font-size: 25px;
+  font-family: 'lovelo-bold';
   color: #fff;
-  padding: 18px;
+  /*padding: 18px;*/
 }
 
 /* ////////////////////////// my website sections ////////////////////////// */
@@ -108,7 +110,8 @@ img.clickable:hover {
 .intro { /* text to introduce meself */
     color: #777;
     background-color:#e6d8c7;
-    padding:5% 30% 3% 30%;
+    padding:3% 30% 3% 30%;
+    text-align:left;
 }
 
 .link-icons {
@@ -119,19 +122,19 @@ img.clickable:hover {
 
 .bgimg-2 { /* projects span */
   background-image: url("../assets/jump2.jpg");
-  min-height: 500px;
+  min-height: 60%;
 }
 .projects { /* list of my  projects */
     background-color:#c3cca9;
     padding:50px 80px;
 }
 .project-names {
-  /*font-family: 'lovelo-light';*/
+  font-family: 'lovelo-light';
   width:100%;
   padding: 3%;
 }
-.project-names h3:hover {
-  color:#d28588;
+.project-names h2:hover {
+  color:#298744;
 }
 .project-content {
   max-height: 100%;
@@ -142,7 +145,7 @@ img.clickable:hover {
 
 .bgimg-3 { /* other interests span */
   background-image: url("../assets/jump3.jpg");
-  min-height: 500px;
+  min-height: 60%;
 }
 .interests { /* list of my interests */
     color:#ddd;
