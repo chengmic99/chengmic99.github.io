@@ -4,10 +4,11 @@
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
         min-height: 40%;
-        max-height: 40%
+        height: 40%
     }
     .section-title-text, .project-names {
       font-size: 5px;
+      letter-spacing: 0px;
     }
 }
 
@@ -46,8 +47,14 @@ a:hover{
 .col-xs {
   padding:5%;
 }
+.col-xs.project-info {
+  padding:2%;
+}
 .half {
   width:50%;
+}
+.third {
+  width:33%;
 }
 
 img.clickable:hover {
@@ -76,7 +83,7 @@ img.clickable:hover {
 }
 
 .section-title-text {
-  /*letter-spacing: 10px;*/
+  letter-spacing: 10px;
   font-size: 25px;
   font-family: 'lovelo-bold';
   color: #fff;
@@ -104,8 +111,6 @@ img.clickable:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height:100%;
-  width:100%;
 
 }
 .bgimg-1 { /* welcome to flagpole land */
@@ -161,6 +166,7 @@ img.clickable:hover {
 .interest-icons {
   width: 20%;
   height:20%;
+  /*position: relative;*/
 }
 
 /*////////////////////////////////////////////////////*/
